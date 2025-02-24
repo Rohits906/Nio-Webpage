@@ -1,8 +1,7 @@
 import Link from "next/link"
-import Image from "next/image"
-import { Button } from "@/components/ui/button"
-import { Navbar } from "@/components/navbar"
-import { Card, CardContent } from "@/components/ui/card"
+import { Button } from "@/app/components/ui/button"
+import { Navbar } from "@/app/components/navbar"
+import { Card, CardContent } from "@/app/components/ui/card"
 import { 
   Truck, 
   Scissors, 
@@ -290,11 +289,11 @@ export default function Home() {
             <div>
               <h3 className="text-lg font-semibold mb-4">Follow Us</h3>
               <div className="flex space-x-4">
-                <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
+                <a href="https://www.linkedin.com/in/rohit-soni906/" target="_blank" className="text-muted-foreground hover:text-primary transition-colors">
                   LinkedIn
                 </a>
-                <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-                  Facebook
+                <a href="https://github.com/Rohits906" target="_blank" className="text-muted-foreground hover:text-primary transition-colors">
+                  GitHub
                 </a>
               </div>
             </div>

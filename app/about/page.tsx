@@ -1,5 +1,5 @@
-import { Navbar } from "@/components/navbar"
-import { Card, CardContent } from "@/components/ui/card"
+import { Navbar } from "@/app/components/navbar"
+import { Card, CardContent } from "@/app/components/ui/card"
 import { Building2, Users, BadgeIndianRupee, Award } from "lucide-react"
 
 export default function AboutPage() {
