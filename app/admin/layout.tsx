@@ -1,6 +1,6 @@
 "use client";
 
-import { MenuIcon } from "lucide-react";
+import { MenuIcon, XIcon } from "lucide-react";
 import Link from "next/link";
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
@@ -18,7 +18,9 @@ export default function AdminLayout({
 
   useEffect(() => {
     const checkAuth = async () => {
-      const { data: { session } } = await supabase.auth.getSession();
+      const {
+        data: { session },
+      } = await supabase.auth.getSession();
       if (!session) {
         router.push("/auth");
       }
@@ -34,9 +36,11 @@ export default function AdminLayout({
   };
 
   if (loading) {
-    return <div className="min-h-screen flex items-center justify-center">
-      <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-gray-900"></div>
-    </div>;
+    return (
+      <div className="min-h-screen flex items-center justify-center">
+        <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-gray-900"></div>
+      </div>
+    );
   }
 
   return (
@@ -50,7 +54,11 @@ export default function AdminLayout({
                 onClick={() => setSidebarOpen(!sidebarOpen)}
                 className="px-4 border-r border-gray-200 text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500 md:hidden"
               >
-                <MenuIcon className="h-6 w-6" />
+                {sidebarOpen ? (
+                  <XIcon className="h-6 w-6" />
+                ) : (
+                  <MenuIcon className="h-6 w-6" />
+                )}
               </button>
               <div className="flex-shrink-0 flex items-center">
                 <Link href="/admin" className="text-xl font-bold text-gray-800">
@@ -83,6 +91,7 @@ export default function AdminLayout({
               <Link
                 href="/admin/products"
                 className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 rounded-md"
+                onClick={() => setSidebarOpen(false)}
               >
                 Products
               </Link>
