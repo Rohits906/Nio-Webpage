@@ -28,7 +28,7 @@ export default function Home() {
             Material Handling Solutions
           </h1>
           <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-            Leading manufacturer of high-quality material handling equipment in Pune, Maharashtra
+            Leading manufacturer of high-quality material handling equipment
           </p>
           <Link href="/products">
             <Button size="lg" className="text-lg">
@@ -261,9 +261,9 @@ export default function Home() {
             <div>
               <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
               <p className="text-muted-foreground">
-                Pune, Maharashtra<br />
+                ABC, <br />
                 India<br />
-                info@nioequipment.com
+                abc@gmail.com
               </p>
             </div>
             <div>
