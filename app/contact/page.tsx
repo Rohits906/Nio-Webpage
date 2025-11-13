@@ -17,7 +17,7 @@ export default function ContactPage() {
                 <Building2 className="h-12 w-12 mb-4 text-primary" />
                 <h3 className="text-xl font-semibold mb-2">Address</h3>
                 <p className="text-muted-foreground">
-                  Pune, Maharashtra<br />
+                  ABC,<br />
                   India
                 </p>
               </CardContent>
@@ -28,7 +28,7 @@ export default function ContactPage() {
                 <Mail className="h-12 w-12 mb-4 text-primary" />
                 <h3 className="text-xl font-semibold mb-2">Email</h3>
                 <a href="mailto:info@nioequipment.com" className="text-muted-foreground hover:text-primary transition-colors">
-                  info@nioequipment.com
+                  abc@gmail.com
                 </a>
               </CardContent>
             </Card>
@@ -38,7 +38,7 @@ export default function ContactPage() {
                 <Phone className="h-12 w-12 mb-4 text-primary" />
                 <h3 className="text-xl font-semibold mb-2">Phone</h3>
                 <a href="tel:+919876543210" className="text-muted-foreground hover:text-primary transition-colors">
-                  +91 98765 43210
+                  +91 123456 7890
                 </a>
               </CardContent>
             </Card>

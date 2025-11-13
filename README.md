@@ -1,7 +1,7 @@
 # Nio Equipment and Engineering Website
 
 ## Overview
-This is the official website for Nio Equipment and Engineering, a leading manufacturer of material handling equipment based in Pune, Maharashtra. The website is built using Next.js and features a modern UI to showcase products, testimonials, and company information.
+This is a demo website for Nio Equipment and Engineering, a leading manufacturer of material handling equipment. The website is built using Next.js and features a modern UI to showcase products, testimonials, and company information.
 
 ## Features
 - **Hero Section**: Engaging introduction with a call-to-action button.
@@ -42,6 +42,6 @@ netlify deploy
 ```
 
 ## Develop By
-Rohit Soni
-- **Email**: rohitsoni7038@gmail.com
+**Rohit Soni**
+
 
