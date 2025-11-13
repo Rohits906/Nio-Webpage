@@ -17,7 +17,7 @@ import {
 
 export default function Home() {
   return (
-    <main className="min-h-screen">
+    <div className="min-h-screen">
       <Navbar />
       
       {/* Hero Section */}
@@ -255,7 +255,7 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-background border-t py-12">
+      <div className="bg-background border-t py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div>
@@ -302,7 +302,7 @@ export default function Home() {
             <p>&copy; {new Date().getFullYear()} Nio Equipment and Engineering. All rights reserved.</p>
           </div>
         </div>
-      </footer>
-    </main>
+      </div>
+    </div>
   )
 }
