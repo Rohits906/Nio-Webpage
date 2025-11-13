@@ -34,7 +34,6 @@ This is the official website for Nio Equipment and Engineering, a leading manufa
    ```sh
    npm run dev
    ```
-5. Open `http://localhost:3000` in your browser.
 
 ## Deployment
 This project is deployed using Netlify:
@@ -42,8 +41,7 @@ This project is deployed using Netlify:
 netlify deploy
 ```
 
-## Contact
-For inquiries, reach out to:
-- **Email**: info@nioequipment.com
-- **Location**: Pune, Maharashtra, India
+## Develop By
+Rohit Soni
+- **Email**: rohitsoni7038@gmail.com
 
