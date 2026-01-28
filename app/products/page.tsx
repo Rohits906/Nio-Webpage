@@ -66,7 +66,7 @@ export default function ProductsPage() {
             ))}
           </div>
           <div className="mt-12 text-center">
-            <Link href="/contact">
+            <Link href="/auth">
               <RequestQuoteButton />
             </Link>
           </div>
