@@ -97,6 +97,12 @@ export default function AuthPage() {
           <Button type="submit" className="w-full" disabled={loading}>
             {loading ? "Signing in..." : "Sign In"}
           </Button>
+
+          <div className="text-sm my-6 text-gray-400 text-center">
+            Demo Admin Credentials :- 
+            <div>Email: admin@gmail.com
+            <p>password: admin123</p></div>
+          </div>
         </form>
       </div>
     </div>
